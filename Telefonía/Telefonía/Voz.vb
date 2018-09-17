@@ -1,7 +1,7 @@
 ﻿Public Class Voz
     Inherits Plan
 
-    Public Sub New(credito, precio)
+    Public Sub New(credito As UInteger, precio As Decimal)
         Me.Credito = credito
         Me.Precio = precio
         consumo = 0

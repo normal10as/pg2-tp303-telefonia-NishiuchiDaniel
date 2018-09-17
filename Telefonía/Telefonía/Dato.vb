@@ -1,10 +1,10 @@
 ﻿Public Class Dato
     Inherits Plan
 
-    Public Sub New(credito, precio)
+    Public Sub New(credito As UInteger, precio As Decimal)
         Me.Credito = credito
         Me.Precio = precio
-        Consumo = 0
+        consumo = 0
     End Sub
 
     Public Overrides Function getDisponible() As UInteger
